@@ -1,0 +1,370 @@
+
+::-webkit-scrollbar-track {
+::-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+::-webkit-scrollbar {
+width: 7px;
+background-color: #F5F5F5; }
+
+::-webkit-scrollbar-thumb {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #222; }
+
+/******************************  commun ************************ */
+.espace60 {
+	margin-top: 60px;
+}
+
+body {
+	background-color: rgb(240, 238, 238);
+	font-size: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .boddyy {
+	background-color: rgb(240, 238, 238);
+	font-size: 16px;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+} 
+.panel{
+    opacity: 1
+}
+h1 {
+	font-size: 50px;
+	margin: 20px 0;
+	font-weight: bold;
+	color: #666;
+}
+
+.input-container {
+	position: relative;
+}
+
+
+/*  *************************** end commun ******************* */
+
+/* start user-page */
+
+.user-page h1 
+{
+	color: #5cb85c;
+}
+
+.user-page form, .the-errors 
+{
+	max-width: 360px;
+	margin: auto;
+}
+
+.user-page form input {
+	margin-bottom: 10px;
+}
+
+.the-errors .msg {
+	padding: 10px;
+	text-align: left;
+	border-left: 5px solid #cd6858;
+	background-color: #fff;
+	margin-bottom: 8px;
+	border-right: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	color: #919191;
+}
+
+.the-errors .error {
+	border-left: 20px solid #cd6858;
+}
+
+.the-errors .succes {
+	border-left: 20px solid #2ecc71;
+}
+
+/********************* end user-page ********************/
+
+
+/* ******************* strat changer pwd page ****************** */
+
+
+
+.show-newpwd, .show-oldpwd {
+	position: relative;
+	top: -27px;
+	float : right;
+    right : 10px;
+}
+
+.show-pwd1 , .show-pwd2{
+    position: relative;
+	top: -27px;
+	float : right;
+    right : 5px;
+}
+
+/* ******************* end changer pwd page ******************** */
+
+
+
+.scrollable{
+    position: relative;
+    height: 300px; 
+    overflow: hidden;
+}
+.scrollable:hover{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.scrollbar-blue::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-blue::-webkit-scrollbar {
+width: 6px;
+background-color: #F5F5F5; }
+
+.scrollbar-blue::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #d9edf7; }
+
+
+
+.tableFixHead thead th { position: sticky; top: 0; background-color: #ffffff;}
+
+.navbar{
+    background-color: #31708f;
+
+}
+
+.navbar  a{
+    color : #d9edf7;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.navbar li a{
+    color : #d9edf7;
+    text-align: center;
+    padding-top: 20px;    
+    padding-bottom: 20px;
+    
+
+}
+.presalaires-menu{
+    display: none;
+}
+
+.navbar li:hover .presalaires-menu{
+    display: block;
+    position : absolute;
+
+}
+
+
+.presalaires-menu .navbar{
+    background-color: #31708f;
+    text-align: left;
+    width : 280px;
+
+}
+
+.presalaires-menu .navbar li a{
+    color : #d9edf7; 
+    text-align: left;
+    margin : auto;
+
+}
+.presalaires-menu .navbar li a:hover{
+    color : #31708f;
+    background-color: #d9edf7;
+    border-radius: 3%;
+}
+.btn .grey{
+    background-color:#f5f5f5; 
+    border-color: #ddd; 
+    color: #333;                                           
+    position: relative; 
+    margin-left: 405px;
+}         
+.navbar  a{
+    color : white;
+}
+.navbar  a:hover{
+    color : #d9edf7;
+}
+.navbar li a:hover{
+    color : #31708f;
+    background-color: #d9edf7;
+    border-radius: 3%;
+
+}
+
+.navbar .navbar-right li a:hover{
+    color : white;
+    background-color: transparent;
+}         
+ 
+
+.espace80{
+    margin-top:80px;
+}
+
+.icon{
+    color : #31708f; 
+}
+.icon:hover{
+    color : #bce8f1;
+}
+
+
+
+  .btn-grey{
+        background-color:#f5f5f5; border-color: #ddd; color: #333;
+    }
+       .btn-grey:hover{
+        background-color:#d9edf7; border-color: #d9edf7; color: #31708f ;
+    }
+.btn-blue{
+        background-color:#d9edf7; border-color: #bce8f1; color: #31708f;
+    }
+       .btn-blue:hover{
+        background-color:#31708f; border-color: #31708f; color: #d9edf7 ;
+    }
+
+
+
+.foot
+           {
+               background-color : #31708f;
+               color : #A2A9AF;
+               height : 30px;
+               padding-top: 20px;
+	position : absolute;
+	bottom : 0;
+               width : 100%
+           }
+           .foot h5
+           {
+               margin : auto;
+               text-align: center;
+               margin-top: -5px
+           }
+
+
+/*documents drop down menu*/
+
+
+.dropdown-menuu{
+    display: none;
+
+}
+
+.document-menuu{
+    display: inline-block;
+    margin : 0 auto;   
+    
+
+}
+
+.document-menuu:hover .dropdown-menuu{
+    display: block;
+    position : absolute;
+}
+
+
+
+.dropdown-menuu .navbar{
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    width : 120px;
+    height : 180px;
+    text-align: center
+
+}
+
+.dropdown-menuu .navbar li a{
+    color : #31708f; 
+    background-color: #d9edf7;
+    text-align: center;
+    margin : auto;
+    height : 60px;
+    width : 100%;
+
+}
+.dropdown-menuu .navbar li a:hover{
+    color : #d9edf7;
+    background-color: #31708f;
+    width : 100%;
+    border-radius: 3%;
+}
+
+td >.document-menuu>a> span{
+    color : #31708f; 
+}
+td >.document-menuu>a> span:hover{
+    color : #bce8f1;
+}
+
+.bod{
+    background: #fff;
+}
+.right{
+    float: right;
+    width: 30%;
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 150px;
+    
+}
+
+.left{
+    float: left;
+    width: 70%;
+    height: 657px
+}
+.left img{
+    width : 100%;
+    height: 100%;
+}
+.title{
+    margin-top: -30px;
+    text-align: center;
+}
+
+	
+		.brand_logo_container {
+            margin-left: 80px;
+			position: absolute;
+			height: 170px;
+			width: 170px;
+			top: -75px;
+			border-radius: 50%;
+			background: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		.brand_logo {
+			height: 150px;
+			width: 150px;
+			border-radius: 50%;
+			border: 2px solid white;
+		}
+		.form_container {
+			margin-top: 50px;
+		}
+		.form_container .btn-login{
+        background-color:#31708f; border-color: #31708f; color: #fff;
+    }
+       .form_container .btn-login:hover{
+        background-color:#d9edf7; border-color: #bce8f1; color: #31708f ;
+    }
+ 
+   
